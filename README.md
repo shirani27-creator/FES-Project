@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shirani Jayaraman</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+<section id="about-me">
+<nav>
+    <div class="personal__logo">Shirani Jayaraman</div>
+    <ul class="nav__link--list">
+        <li class="nav__link">
+        <a href="#Languages" class=" 
+        nav__link--anchor
+        link__hover-effect
+        link__hover-effect--green">Languages</a> 
+        </li> 
+    
+        <li class="nav__link">
+        <a href="#Projects" class=" 
+        nav__link--anchor
+        link__hover-effect
+        link__hover-effect--green">Projects</a>
+        </li>
+    
+        <li class="nav__link">
+        <a href="mailto:shirani27@gmail.com" class=" 
+        nav__link--anchor
+        nav__link--anchor-primary">Contacts</a> 
+        </li>
+    </ul>
+</nav>
+
+<div class="flex flex-1">
+    <div class="about-me__info row">
+        <div class="about-me__info--container">
+           <div class="about-me__picture--mask">
+            <figure class="about-me__picture--mask">
+            <img src="myassest/about-me_pict1.jpeg" alt="Shirani Jayaraman Photo" class="about-me__photo">
+            </figure>
+        </div>
+    
+        <h1 class="about-me__info--title">
+            Hi, I'm <span class="text--navy blue">Shirani Jayaraman</span>
+        </h1>
+        <p class="about-me__description">
+            A passionate software developer with a knack for creating efficient and scalable web applications. 
+            Experienced in full-stack development, I enjoy turning complex problems into simple, beautiful, and intuitive designs.
+        </p>
+        </div>
