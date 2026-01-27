@@ -161,6 +161,14 @@ nav {
     animation: animate-profile-picture 800ms 200ms backwards;
 }
 
+.about-me__picture {
+    width: 100%;
+    transform: scale(1.5);
+    padding-top: 8px;
+}
+
+.about-me__photo {width: 100%;}
+
 @keyframes animate-profile-picture {
     0% {
         transform: scale(0);
@@ -174,7 +182,3 @@ nav {
 }
 
 
-.about-me_picture{width: 100%;
-transform: scale(1.5);
-padding-top: 8px;
-} 
